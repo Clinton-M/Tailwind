@@ -1,0 +1,17 @@
+{
+  "name": "tercero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css ",
+    "watch": "tailwindcss -i ./src/input.css -o ./public/output.css --watch "
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.2.0"
+  }
+}
